@@ -1,4 +1,4 @@
-https://dev.azure.com/rodrigoabed94/Testes%20ABED/_apis/build/status/digordg21.mslearn-tailspin-spacegame-web?branchName=master
+[![Build Status](https://dev.azure.com/rodrigoabed94/Testes%20ABED/_apis/build/status/digordg21.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/rodrigoabed94/Testes%20ABED/_build/latest?definitionId=2&branchName=master)
 
 # Contributing
 
