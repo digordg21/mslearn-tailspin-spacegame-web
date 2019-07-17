@@ -63,6 +63,6 @@ steps:
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
 
-  - task: WhiteSource Bolt@19
+- task: WhiteSource Bolt@19
   inputs:
     cwd: 'Testes ABED'  
