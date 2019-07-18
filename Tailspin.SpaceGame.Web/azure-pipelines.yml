@@ -43,7 +43,6 @@ steps:
     projects: '**/*.csproj'
 
 - task: DotNetCoreCLI@2
-<<<<<<< HEAD:azure-pipelines.yml
   displayName: 'Install ReportGenerator'
   inputs:
     command: custom
@@ -68,7 +67,6 @@ steps:
     codeCoverageTool: 'cobertura'
     summaryFileLocation: '$(Build.SourcesDirectory)/**/coverage.cobertura.xml'
 
-=======
 
 - task: DotNetCoreCLI@2
   displayName: 'Publish the project - $(buildConfiguration)'
@@ -82,10 +80,7 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
-<<<<<<< HEAD:azure-pipelines.yml
-=======
 
 - task: WhiteSource Bolt@19
   inputs:
     cwd: 'Testes ABED'  
->>>>>>> c734601bf4a6845d3558f7027e3761dca9f7cc5d:Tailspin.SpaceGame.Web/azure-pipelines.yml
